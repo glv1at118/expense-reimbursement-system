@@ -1,0 +1,334 @@
+#welcome {
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.welsec1 {
+    float: left;
+}
+
+.welsec2 {
+    float: right;
+}
+
+a#logout:hover {
+    color: red;
+}
+
+a#logout:active {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+#outer {
+    width: 100%;
+    position: relative;
+}
+
+#listArea {
+    width: 55%;
+    height: 650px;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    box-sizing: border-box;
+    border: 3px solid gray;
+    position: relative;
+    background-color: white;
+    opacity: 0.9;
+}
+
+#viewArea {
+    width: 37.5%;
+    height: 650px;
+    float: left;
+    margin-right: 2.5%;
+    box-sizing: border-box;
+    border: 3px solid gray;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    width: 100%;
+    height: 42px;
+}
+
+section.sec1 {
+    float: left;
+    height: 100%;
+    width: 65%;
+}
+section.sec2 {
+    float: left;
+    height: 100%;
+    width: 20%;
+    position: relative;
+    top: 5%;
+}
+
+div.menu-1{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul.list-box {
+    height: 598px;
+    overflow-y: auto;
+}
+
+li.cardList {
+    border: none;
+}
+
+p.description {
+    max-height: 50px;
+    overflow-y: hidden;
+}
+
+#infoDisplayer {
+    width: 92%;
+    height: 579px;
+    position: relative;
+    left: 4%;
+    top: 10px;
+}
+
+#infoDisplayer h6 {
+    margin-bottom: 0px;
+    font-weight: bold;
+    height: 22px;
+}
+
+#infoDisplayer p {
+    margin-bottom: 10px;
+    min-height: 24px;
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+#des_text {
+    min-height: 24px;
+    max-height: 105px;
+}
+
+section.pane1 {
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+
+section.pane2 {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+
+section.pane3 {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+
+.my_btn {
+    width: 90%;
+}
+
+.my_btn:hover {
+    font-weight: bold;
+}
+
+.my_btn:active {
+    font-weight: bold;
+}
+
+#filterBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1%;
+    margin-top: 0.2%;
+}
+
+.view-detail-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+#reimbIdSecretBox {
+    display: none;
+}
+
+/* Newly created animations by Guannan */
+body {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#moveBox1 {
+    /* lower circle */
+    width: 95vw;
+    height: 95vw;
+    opacity: 0.4;
+    border-radius: 50%;
+    position: absolute;
+    top: 15vw;
+    animation-name: box1AnimationMotion, box1AnimationColor;
+    animation-direction: alternate, alternate;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-duration: 8s, 5s;
+    animation-iteration-count: infinite, infinite;
+}
+
+@keyframes box1AnimationMotion {
+    0% {
+        left: -40vw;
+    }
+
+    100% {
+        left: 60vw;
+    }
+}
+
+@keyframes box1AnimationColor {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    75% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+#moveBox2 {
+    /* upper circle */
+    width: 80vw;
+    height: 80vw;
+    opacity: 0.4;
+    border-radius: 50%;
+    position: absolute;
+    top: -50vw;
+    animation-name: box2AnimationMotion, box2AnimationColor;
+    animation-direction: alternate-reverse, alternate;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-duration: 5s, 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box2AnimationMotion {
+    from {
+        left: -40vw;
+    }
+
+    to {
+        left: 60vw;
+    }
+}
+
+@keyframes box2AnimationColor {
+    0% {
+        background-color: green;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: purple;
+    }
+
+    75% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+#moveBox3 {
+    /* smallest circle */
+    width: 35vw;
+    height: 30vw;
+    opacity: 0.4;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10vw;
+    animation-name: box3AnimationMotion, box3AnimationColor, box3AnimationSpin;
+    animation-direction: alternate-reverse, alternate, normal;
+    animation-timing-function: ease-in-out, ease-in-out, linear;
+    animation-duration: 4s, 4s, 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box3AnimationMotion {
+    from {
+        left: -15vw;
+    }
+
+    to {
+        left: 80vw;
+    }
+}
+
+@keyframes box3AnimationColor {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: purple;
+    }
+}
+
+@keyframes box3AnimationSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
