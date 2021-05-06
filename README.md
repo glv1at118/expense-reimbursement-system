@@ -6,21 +6,21 @@ This is a full-stack expense reimbursement system built for small to medium leve
 
 ### Technologies Used
 
-- Java
+- Java 1.8
 - Java Servlet
-- PostgreSQL
+- PostgreSQL 42.2.18
 - JDBC
-- JUnit
-- Mockito
-- Log4j
-- Jackson
-- JavaScript
-- jQuery
-- Bootstrap
+- JUnit 5.7.0
+- Mockito 1.10.19
+- Log4j 1.2.17
+- Jackson 2.12.2
+- JavaScript ES5, ES6
+- jQuery 3.6.0
+- Bootstrap 5
 - HTML5
 - CSS3
 - Ajax
-- Tomcat
+- Tomcat 9.0
 - Maven
 
 ### Features
@@ -41,18 +41,19 @@ To-do list:
 
 ### Getting Started
 
+To run this project properly, JDK 1.8 and Apache Tomcat is required. Use git clone to download this application to a local machine.
 git clone https://github.com/glv1at118/expense-reimbursement-system.git
-
-> Be sure to include BOTH Windows and Unix command
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
 
 ### Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+Update Maven dependencies for the project based on the pom.xml, add project to Tomcat server, and run.
+Project is running at: http://localhost:8080/ERS_System/landing.view
+
+![1](https://user-images.githubusercontent.com/44102726/117225740-0949a400-ade1-11eb-8d9b-1f5dbdb06c94.PNG)
+![2](https://user-images.githubusercontent.com/44102726/117225741-09e23a80-ade1-11eb-887d-7221302fd59b.PNG)
+![3](https://user-images.githubusercontent.com/44102726/117225742-09e23a80-ade1-11eb-9ad9-52b4714d1b4a.PNG)
+![4](https://user-images.githubusercontent.com/44102726/117225743-09e23a80-ade1-11eb-980a-154cb4dae99b.PNG)
 
 ### License
 
-This project uses the following license: [](https://github.com/PorkodiVenkatesh/PROJECT-NAME/blob/master/link).
+This project uses the following license: MIT.
