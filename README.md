@@ -42,11 +42,13 @@ To-do list:
 ### Getting Started
 
 To run this project properly, JDK 1.8 and Apache Tomcat is required. Use git clone to download this application to a local machine.
+
 git clone https://github.com/glv1at118/expense-reimbursement-system.git
 
 ### Usage
 
 Update Maven dependencies for the project based on the pom.xml, add project to Tomcat server, and run.
+
 Project is running at: http://localhost:8080/ERS_System/landing.view
 
 ![1](https://user-images.githubusercontent.com/44102726/117225740-0949a400-ade1-11eb-8d9b-1f5dbdb06c94.PNG)
