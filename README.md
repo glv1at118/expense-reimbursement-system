@@ -47,7 +47,7 @@ To run this project properly, JDK 1.8 and Apache Tomcat is required. Use git clo
 
 ### Usage
 
-Update Maven dependencies for the project based on the pom.xml, add project to Tomcat server, and run.
+Update Maven dependencies for the project based on the pom.xml, add project to Tomcat server, and start the Tomcat server.
 
 Project is running at: http://localhost:8080/ERS_System/landing.view
 
@@ -58,4 +58,4 @@ Project is running at: http://localhost:8080/ERS_System/landing.view
 
 ### License
 
-This project uses the following license: MIT.
+This project uses the following license: MIT license.
