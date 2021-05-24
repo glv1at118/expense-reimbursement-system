@@ -43,7 +43,7 @@ To-do list:
 
 To run this project properly, JDK 1.8 and Apache Tomcat is required. Use git clone to download this application to a local machine.
 
-git clone https://github.com/glv1at118/expense-reimbursement-system.git
+<code>git clone https://github.com/glv1at118/expense-reimbursement-system.git</code>
 
 ### Usage
 
