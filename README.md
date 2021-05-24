@@ -6,22 +6,22 @@ This is a full-stack expense reimbursement system built for small to medium leve
 
 ### Technologies Used
 
-- Java 1.8
-- Java Servlet
-- PostgreSQL 42.2.18
-- JDBC
-- JUnit 5.7.0
-- Mockito 1.10.19
-- Log4j 1.2.17
-- Jackson 2.12.2
+- Java - version 1.8
+- Java Servlet - version 4.0.3
+- PostgreSQL - version 42.2.18
+- JDBC - version 4.3
+- JUnit - version 5.7.0
+- Mockito - version 1.10.19
+- Log4j - version 1.2.17
+- Jackson - version 2.12.2
 - JavaScript ES5, ES6
-- jQuery 3.6.0
-- Bootstrap 5
+- jQuery - version 3.6.0
+- Bootstrap - version 5
 - HTML5
 - CSS3
 - Ajax
-- Tomcat 9.0
-- Maven
+- Tomcat - version 9.0
+- Maven - version 3.8.1
 
 ### Features
 
